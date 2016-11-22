@@ -104,3 +104,49 @@ char checar(void)
 
     return ' ';
 }
+
+//faz o scan da primeira jogada
+switch ( jogada )
+  {
+     case 1 :
+       //O jogador jogou na primeira posicao preenche a matriz com o indice do jogador
+        //pc joga no meio por exemplo;
+       //Aqui pode ate imprimir a matriz com o preenchimento ate agora
+        //faz o scan da segunda jogada do jogador
+        switch ( jogada ){
+                //repita ate o jogo acabar
+        }
+     break;
+ 
+     case 2 :
+       
+     break;
+ 
+     case 3 :
+        
+     break;
+ 
+     case 4 :
+        
+     break;
+ 
+     case 5 :
+       
+     break;
+ 
+     case 6 :
+       
+     break;
+ 
+     case 7 :
+       
+     break;
+        
+    case 8 :
+        
+     break;
+        
+    case 9 :
+        
+     break;
+  }
