@@ -118,13 +118,83 @@ void ImprimeMatriz(char Matriz[3][3]){
 switch ( jogada )
   {
      case 1 :
-       //O jogador jogou na primeira posicao preenche a matriz com o indice do jogador
-        //pc joga no meio por exemplo;
-       //Aqui pode ate imprimir a matriz com o preenchimento ate agora
-        //faz o scan da segunda jogada do jogador
+       Matriz[0][0]=X; //O jogador jogou na primeira posicao preenche a matriz com o indice do jogador no caso vou colocar X
+       Matriz[1][1]=O; //pc joga no meio por exemplo;
+       ImprimeMAtriz(Matriz); //Aqui pode ate imprimir a matriz com o preenchimento ate agora
+        scanf("%c",&jogada)//faz o scan da segunda jogada do jogador
         switch ( jogada ){
-                //repita ate o jogo acabar
-        }
+                case 2 :
+       
+                break;
+ 
+                 case 3 :
+        
+                break;
+ 
+                case 4 :
+        
+                break;
+ 
+                 case 6 :
+       
+                break;
+ 
+                case 7 :
+       
+                 break;
+        
+                case 8 :
+        
+                break;
+        
+                case 9 :
+                       Matriz[2][2]=X; //O jogador jogou na ultima posicao preenche a matriz com o indice do jogador no caso vou colocar X
+                        Matriz[2][1]=O; //pc joga na penultima por exemplo;
+                         ImprimeMAtriz(Matriz); //Aqui pode ate imprimir a matriz com o preenchimento ate agora
+                         scanf("%c",&jogada)
+                             switch ( jogada ){
+                                       case 2 :
+                                                 Matriz[0][1]=X; 
+                                                Matriz[0][2]=O; 
+                                                ImprimeMAtriz(Matriz); //Aqui pode ate imprimir a matriz com o preenchimento ate agora
+                                                scanf("%c",&jogada)
+                                                    switch ( jogada ){
+ 
+                                                                  case 4 :
+                                                                        Matriz[1][0]=X; 
+                                                                        Matriz[2][0]=O; 
+                                                                        ImprimeMAtriz(Matriz);
+                                                                        //imprime deu velha
+                                                                   break;
+ 
+                                                                    case 6 :
+       
+                                                                     break;
+ 
+                                                                    case 7 :
+       
+                                                                    break;
+                                         break;
+ 
+                                         case 3 :
+        
+                                            break;
+ 
+                                        case 4 :
+        
+                                         break;
+ 
+                                        case 6 :
+       
+                                         break;
+ 
+                                         case 7 :
+       
+                                            break;
+        
+                             }
+                break;
+            }
      break;
  
      case 2 :
